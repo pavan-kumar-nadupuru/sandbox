@@ -1,0 +1,29 @@
+{
+  "name": "graph_ql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Pavan K Nadupuru",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-tools": "^8.2.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.12.1",
+    "sqlite3": "^5.0.2"
+  }
+}

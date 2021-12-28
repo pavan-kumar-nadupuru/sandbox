@@ -1,0 +1,53 @@
+# mutation{
+#   createFriend(input: {
+#     first_name: "Pavan",
+#     last_name: "Nadupuru",
+#     gender:MALE,
+#     age: 23,
+#     contacts: [
+#       {first_name: "John", last_name:"Doe"},
+#       {first_name: "Jane", last_name:"Doe"}
+      
+#     ]
+#   }){
+#     id,
+#     first_name,
+#     last_name,
+#     gender,
+#     age
+#   }
+# }
+
+# mutation{
+#   updateFriend(input: {
+#     id: "61cb156ea599d42e6a3087ce",
+#     age:12
+#   }){
+#     id,
+#     first_name,
+#     last_name,
+#     age,
+#     gender,
+#   }
+# }
+
+
+# mutation{
+#   deleteFriend(id: "61cb156da599d42e6a3087cc")
+# }
+
+
+
+# query{
+#   getAliens{
+#     first_name,
+#     last_name,
+#     planet
+#   }
+# }
+
+# query{
+#   getFriend(id: "61cb0c45eb56c137c13f2fcc"){
+#     first_name
+#   }
+# }
